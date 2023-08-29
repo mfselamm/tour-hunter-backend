@@ -1,7 +1,7 @@
 databases:
   - name: tour-hunter-backend
     databaseName: tour_hunter_production
-    user: postgres
+    user: menge
 
 services:
   - type: web
