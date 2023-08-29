@@ -51,6 +51,7 @@ group :development do
   gem 'bullet'
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'rubocop', '>= 1.0', '< 2.0'
 end
 
 group :test do
@@ -65,4 +66,4 @@ gem 'active_model_serializers'
 gem 'cloudinary'
 gem 'devise'
 gem 'devise-jwt'
-gem 'rubocop', '>= 1.0', '< 2.0'
+
