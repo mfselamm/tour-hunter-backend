@@ -41,7 +41,7 @@ You can find the back-end API [here](https://github.com/leopiresgoss/tour-hunter
 
 - Set a [Cloudinary](https://cloudinary.com) account and a add cloudinary.yml with your credentials in the `config` folder
 - In `.env` file, add your own credentials: 
-    - The master_pwd should be your mailer password to send confirmation emails.
+    - The MASTER_PWD should be your mailer password to send confirmation emails.
     - The DEVISE_JWT_SECRET_KEY shoul be generated running the command: `bundle exec rails secret`
 
 - Alternatively, you can just download the complete zip file and extract the folder in your directory
